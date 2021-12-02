@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1200px) {
+  #intro .intro__blocks{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header .header__inner {
+    width: 100%;
+    justify-content: space-between;
+    nav {
+      width: 100%;
+      ul{
+        display: none;
+      }
+    }
+    a{
+      display: block;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #intro .intro__blocks{
+    width: 80%;
+    &--item{
+      width: 100%;
+    }
+  }
+}
